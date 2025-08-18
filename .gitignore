@@ -1,0 +1,17 @@
+# env & secrets
+.env
+*.env
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# notebooks
+.ipynb_checkpoints/
+
+# chroma / cache / data
+chroma*/
+*/chroma*/
+starter/chromadb/
+data/
